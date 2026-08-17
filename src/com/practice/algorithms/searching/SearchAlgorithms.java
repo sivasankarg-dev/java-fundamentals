@@ -62,8 +62,7 @@ public class SearchAlgorithms {
 
     }
 
-    
-
+   
 
 
 }
@@ -72,6 +71,7 @@ class BinarySearch{
     public static void main(String[] args) {
         int[] arr = {-1,0,3,5,9,12};
         System.out.println(binarySearchOn1DArray(arr,9));
+
     }
 
 
@@ -108,5 +108,19 @@ class BinarySearch{
         return -1;
     }
 
+    
 
+
+}
+
+/**
+ * It's working on only in jump search
+ * JumpSearch
+ */
+class JumpSearch{
+    public static void main(String[] args) {
+        
+    }
+
+    
 }
