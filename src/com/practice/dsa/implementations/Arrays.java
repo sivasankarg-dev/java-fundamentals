@@ -55,6 +55,15 @@ public class Arrays {
         arr[index] = element;
     }
 
+
+      boolean isEmpty(){
+        return size == 0;
+    }
+
+    int getSize(){
+        return size;
+    }
+    
     void display(){
         for(int i = 0; i < size;i++){
             System.out.println(arr[i]);

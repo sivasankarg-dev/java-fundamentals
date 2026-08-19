@@ -42,6 +42,14 @@ public class DynamicArrays {
     }
 
 
+    boolean isEmpty(){
+        return size == 0;
+    }
+
+    int getSize(){
+        return size;
+    }
+
     public String toString(){
         StringBuilder str = new StringBuilder();
         str.append("[");
